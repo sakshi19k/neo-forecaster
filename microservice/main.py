@@ -33,7 +33,7 @@ app.add_middleware(
 )
 
 # Configuration
-NASA_API_KEY = os.getenv("NASA_API_KEY", "tdBdGkgqo3tm00E4lsoaCD5VBK2mnMQHuA6P0yzs")
+NASA_API_KEY = os.getenv("NASA_API_KEY", "DEMO_KEY")
 NASA_BASE_URL = os.getenv("NASA_BASE_URL", "https://api.nasa.gov/neo/rest/v1/feed")
 
 #Standard Astronomical estimate for density of asteroids in kg/m^3
