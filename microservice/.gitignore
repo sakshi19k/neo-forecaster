@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Python caches and virtual environments
+__pycache__/
+venv/
+env/
+*.pyc
+
+# Secrets and API Keys (CRITICAL)
+.env
+
+# MacOS system files
+.DS_Store
