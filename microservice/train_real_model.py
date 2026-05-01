@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
 import joblib
 
-NASA_API_KEY = os.getenv("NASA_API_KEY", "tdBdGkgqo3tm00E4lsoaCD5VBK2mnMQHuA6P0yzs")
+NASA_API_KEY = os.getenv("NASA_API_KEY", "DEMO_KEY")
 NASA_BASE_URL = "https://api.nasa.gov/neo/rest/v1/feed"
 
 def fetch_historical_nasa_data():
